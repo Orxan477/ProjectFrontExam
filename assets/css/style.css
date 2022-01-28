@@ -23,6 +23,11 @@
 /* nav1 End */
 
 /* nav2 start */
+#nav2{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
 #nav2 .nav2RightMargin{
     margin-left: 38%;
 }
@@ -302,4 +307,64 @@
 }
 .buttonSend{
     text-align: center;
+}
+/* Contact End */
+
+/* Footer1 Start */
+.footer1Content{
+    text-align: center;
+}
+.footer1Content h4{
+    font-weight: 700;
+}
+#footer2 ul{
+    list-style: none;
+    padding: 0;
+}
+#footer2 .bottom{
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 700;
+}
+#footer2 .bottom span {
+    color: #1467d3;
+}
+#footer2 .top{
+    margin-top: 15px;
+}
+#footer2 .hover .head{
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+#footer2 .hover li {
+    margin: 8px 0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+#footer2 .hover li:hover {
+    color: #1467d3;
+}
+#footer2 .logoFooterRight{
+    color: #1467d3
+}
+#footer2 .social li{
+    margin: 0 7px;
+}
+.iconSocialFooter{
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: #1467d3;
+    border-radius: 5px;
+    transition: .3s;
+}
+.iconSocialFooter:hover{
+    background-color: #1f76e9;
+}
+.footer3Margin{
+    margin-left: 41%;
 }
